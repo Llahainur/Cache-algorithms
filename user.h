@@ -4,6 +4,8 @@
 #include <QThread>
 #include <QDebug>
 #include <QListWidget>
+#include <QTimer>
+
 
 class User:public QThread
 {

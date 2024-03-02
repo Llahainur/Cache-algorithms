@@ -128,14 +128,14 @@
    <widget class="QLabel" name="user_label_2">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>400</y>
-      <width>63</width>
+      <x>660</x>
+      <y>450</y>
+      <width>101</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>Запрос</string>
+     <string>Размер кэша</string>
     </property>
    </widget>
    <widget class="QPushButton" name="StopButton">
@@ -149,6 +149,16 @@
     </property>
     <property name="text">
      <string>Остановить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>480</y>
+      <width>48</width>
+      <height>29</height>
+     </rect>
     </property>
    </widget>
   </widget>

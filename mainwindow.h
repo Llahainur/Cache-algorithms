@@ -7,6 +7,10 @@
 #include <QFileDialog>
 #include <QRadioButton>
 #include <QButtonGroup>
+#include <QTimer>
+#include <QRandomGenerator>
+#include <QVector>
+
 
 #include "user.h"
 
@@ -29,8 +33,14 @@ private slots:
 
     void on_StopButton_clicked();
 
+    void updateTime();
+
 private:
     Ui::MainWindow *ui;
-    User user;
+    QTimer *tmr;
+    int mode=0;
+    QRandomGenerator generator;
+    QMap<QString, int> MRU;
+
 };
 #endif // MAINWINDOW_H
