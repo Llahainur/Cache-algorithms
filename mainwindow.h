@@ -8,6 +8,8 @@
 #include <QRadioButton>
 #include <QButtonGroup>
 
+#include "user.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -25,7 +27,10 @@ private slots:
 
     void on_FileButton_clicked();
 
+    void on_StopButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    User user;
 };
 #endif // MAINWINDOW_H

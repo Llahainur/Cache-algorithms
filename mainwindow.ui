@@ -86,7 +86,7 @@
      <string>Запустить</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="radioButton_FIFO">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -99,7 +99,7 @@
      <string>FIFO</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="radioButton_MRU">
     <property name="geometry">
      <rect>
       <x>650</x>
@@ -136,6 +136,19 @@
     </property>
     <property name="text">
      <string>Запрос</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="StopButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>350</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Остановить</string>
     </property>
    </widget>
   </widget>
